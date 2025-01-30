@@ -14,3 +14,10 @@ An AI-powered browser automation tool with natural language processing capabilit
   AI-powered analysis of automation results
 - **Comprehensive Logging**  
   Detailed JSON logs of all operations
+
+## Running the agent
+There are two ways to run the agent:
+- **Simple Agent Run**
+    Run the agent by running the file named agent.py in the root
+- **With UI**
+    Run the agent with gradio UI with an extra layer of AI summarization of the process
