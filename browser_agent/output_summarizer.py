@@ -32,6 +32,7 @@ def output_summarizer(journey):
          - Key Steps taken by the AI
          - Critical findings and data points
          - Final outcomes and recommendations
+         - The list of URLs visited from the logs
          - Technical insights from the logs
          
          Your goal is to provide clear, accurate, and relevant summaries that capture the main points and essential information. 

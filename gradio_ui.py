@@ -207,7 +207,7 @@ def create_ui():
                         )
                     with gr.Tab("⚙️ Raw Data"):
                         raw_data = gr.Textbox(
-                            label="Technical Details",
+                            label="Technical Details (Steps Taken)",
                             lines=12,
                             interactive=False,
                             elem_id="output-box"
