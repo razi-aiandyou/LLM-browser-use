@@ -11,3 +11,7 @@ __pycache__
 
 # Gradio
 tmp/
+
+# Browser use variable
+agent_history.gif
+browser_agent/agent_history.gif
