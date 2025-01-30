@@ -1,0 +1,27 @@
+{
+    "visited_urls": [
+        "about:blank",
+        "https://www.google.com/search?q=Transformers%20architecture%20Wikipedia&udm=14"
+    ],
+    "action_names": [
+        "search_google",
+        "done"
+    ],
+    "extracted_content": [
+        "\ud83d\udd0d  Searched for \"Transformers architecture Wikipedia\" in Google",
+        "Here is the Wikipedia link about Transformers architecture: [Transformer (deep learning architecture) - Wikipedia](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))"
+    ],
+    "errors": [],
+    "model_actions": [
+        {
+            "search_google": {
+                "query": "Transformers architecture Wikipedia"
+            }
+        },
+        {
+            "done": {
+                "text": "Here is the Wikipedia link about Transformers architecture: [Transformer (deep learning architecture) - Wikipedia](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))"
+            }
+        }
+    ]
+}

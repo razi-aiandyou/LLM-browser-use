@@ -1,0 +1,13 @@
+# Virtual Environments
+.venv
+venv/
+
+# Environment Variables
+.env
+
+# PyCache
+browser-agent/__pycache__
+__pycache__
+
+# Gradio
+tmp/
