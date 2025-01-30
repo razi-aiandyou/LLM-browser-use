@@ -17,7 +17,7 @@ An AI-powered browser automation tool with natural language processing capabilit
 
 ## Running the agent
 There are two ways to run the agent:
-- **Simple Agent Run**
+- **Simple Agent Run:**
     Run the agent by running the file named agent.py in the root
-- **With UI**
-    Run the agent with gradio UI with an extra layer of AI summarization of the process
+- **With UI:**
+    Run the agent with gradio UI with an extra layer of AI summarization of the process using the gradio_ui.py file
