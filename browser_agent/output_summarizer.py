@@ -1,6 +1,6 @@
 import json
 from dotenv import load_dotenv
-from langchain_groq import ChatGroq
+from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 
 def output_summarizer(journey):
@@ -13,8 +13,8 @@ def output_summarizer(journey):
     except Exception as e:
         print(f"Error loading log file: {str(e)}")
 
-    llm = ChatGroq(
-        model="llama-3.3-70b-versatile",
+    llm = ChatOpenAI(
+        model="gpt-3.5-turbo",
         temperature=0.25,
         max_tokens=None,
         timeout=None,
